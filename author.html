@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>汇墨集 · 多人共耕博客</title>
-  <meta name="description" content="一隅墨客的共耕之地。古意与新声，皆落于此。">
+  <title>墨客 · 汇墨集</title>
+  <meta name="description" content="共耕汇墨集的几位墨客。">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%239e2b25'/%3E%3Crect x='4' y='4' width='56' height='56' fill='none' stroke='%23f7f2e9' stroke-width='3'/%3E%3Ctext x='32' y='45' font-family='serif' font-size='40' fill='%23f7f2e9' text-anchor='middle'%3E%E5%A2%A8%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-page="home">
+<body data-page="authors">
   <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
   <header class="nav" id="nav"></header>
-  <main class="container home-layout">
-    <aside class="sidebar" id="sidebar"></aside>
-    <section class="feed-col" id="feed-wrap">
-      <div class="sec-head sec-head--left">
-        <p class="sec-head__eyebrow">最新</p>
-        <h2 class="sec-head__title">新墨落纸</h2>
+  <main class="container">
+    <section class="section" id="authors" style="padding-top: calc(var(--nav-h) + var(--sp-6));">
+      <div class="sec-head">
+        <p class="sec-head__eyebrow">墨客</p>
+        <h2 class="sec-head__title">执笔者</h2>
+        <p class="sec-head__sub">共耕此地的几位墨客。</p>
       </div>
-      <div id="feed"></div>
-      <a class="home-more" href="archive.html">查看全部文章 &rarr;</a>
+      <div id="authors-list"></div>
     </section>
   </main>
   <footer class="footer">
@@ -28,7 +27,6 @@
       <div class="footer__links">
         <a class="footer__link" href="index.html">首页</a>
         <a class="footer__link" href="archive.html">文章</a>
-        <a class="footer__link" href="author.html">作者</a>
         <a class="footer__link" href="about.html">关于</a>
       </div>
     </div>

@@ -11,7 +11,13 @@ window.BLOG_DATA = {
     nameEn: "Inkwell Collective",
     sealText: "汇墨",
     tagline: "承古意 · 录新声",
-    description: "一隅墨客的共耕之地。古意与新声，皆落于此。"
+    description: "一隅墨客的共耕之地。古意与新声，皆落于此。",
+    weather: { city: "上海", lat: 31.2304, lon: 121.4737 },
+    links: [
+      { name: "GitHub 仓库", href: "https://github.com/Cmochance/moke" },
+      { name: "认识墨客", href: "author.html" },
+      { name: "关于本站", href: "about.html" }
+    ]
   },
   authors: [
     {
@@ -41,6 +47,7 @@ window.BLOG_DATA = {
       authorId: "lin",
       date: "2026-06-22",
       category: "排印",
+      pinned: true,
       coverText: "字",
       tags: ["排印", "国风"],
       stats: { views: 412, likes: 38, comments: 9 },
@@ -53,6 +60,7 @@ window.BLOG_DATA = {
       authorId: "su",
       date: "2026-06-18",
       category: "技术",
+      pinned: true,
       coverText: "码",
       tags: ["Rust", "工程"],
       stats: { views: 658, likes: 52, comments: 14 },
