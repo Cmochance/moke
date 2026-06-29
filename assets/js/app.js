@@ -49,6 +49,7 @@
         '<div class="nav__actions">' +
           '<button class="nav__btn nav__btn--search" id="searchBtn" type="button">搜索 <kbd>K</kbd></button>' +
           '<button class="nav__btn" id="themeBtn" type="button" aria-label="切换主题">月</button>' +
+          '<span id="authSlot"></span>' +
           '<button class="nav__btn nav__toggle" id="navToggle" type="button" aria-label="菜单">≡</button>' +
         "</div>" +
       "</div>";

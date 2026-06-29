@@ -53,6 +53,9 @@
 进行中 —— P1。
 P1–P6 完成：首页 / 文章详情 / 关于页 / 筛选 / 搜索 / 明暗主题切换均可用。
 已用 playwright 验证：4 篇卡片、8 个筛选标签、主题切换持久化、按作者筛选(苏砚→仅 1 篇)、重置恢复全部。
+P7 完成：响应式三档断点打磨 + GitHub Pages 部署。
+线上地址 https://cmochance.github.io/moke/ ，仓库 https://github.com/Cmochance/moke
+已验证：首页/文章详情在子路径 /moke/ 下渲染正常；平板断点卡片封面 240→180px；正文阅读宽度 max-width 44rem。
 
 ## 验证 / Verification
 
@@ -63,6 +66,7 @@ cd /Users/alysechen/alysechen/github/Blog 然后 python3 -m http.server 8000 ，
 - 2026-06-29：完成两边参考提取；创建任务文档；落地设计系统 CSS。
 - 2026-06-29：落地 data.js / app.js / index.html / article.html / about.html。
 - 2026-06-29：修复 app.js 中 renderHero 脱离 IIFE 的 bug($ 未定义)；playwright 验证三页渲染与交互通过；生成首页预览截图 preview/home-full.png。
+- 2026-06-29：响应式增强（≤1024 平板断点、≤760 移动端间距/标题/网格优化）；部署 workflow + 远端仓库 moke 创建 + push 触发部署成功。
 
 ## 阻塞项 / 阻塞
 
